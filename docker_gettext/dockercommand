@@ -1,0 +1,2 @@
+docker build . -t test_poedit:latest
+docker run -v ./files:/root/files/ test_poedit:latest
